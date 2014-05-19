@@ -1,0 +1,36 @@
+doctype html
+html
+	head
+		if title
+			title= title + ' | pvrs chat'
+		else
+			title pvrs chat
+		link(href='/css/bootstrap.min.css', rel='stylesheet')
+		link(href='/css/style.css', rel='stylesheet')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+		script(src='/js/jquery.min.js')
+		block include
+	body
+		nav.navbar.navbar-default.navbar-static-top.navbar-inverse(role='navigation')
+			div.container-fluid
+				div.navbar-header
+					button.navbar-toggle(type='button',data-toggle='collapse',data-target='#pvch-collapse')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href='#') pvrs chat
+				div.collapse.navbar-collapse#pvch-collapse
+					ul.nav.navbar-nav
+						li.active
+							a(href='/') Home
+					ul.nav.navbar-nav.navbar-right
+						li
+							if not_logged_in
+								a(href='/login') Log In
+							else
+								a(href='/logout') Log Out
+		div.container-fluid#main
+			block body
+		block footer

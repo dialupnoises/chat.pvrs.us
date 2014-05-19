@@ -1,0 +1,43 @@
+extends layout
+block include
+	script(src='/socket.io/socket.io.js')
+	script='var domain = \'' + domain + '\'; var auth=\'' + auth + '\';'
+	script(src='/js/autolinker.min.js')
+	script(src='/js/chat.js')
+	style.
+		#main { padding: 0; }
+block body
+	div#rooms
+		div.room-tab.active#tab-pvrs(data-room='#room-pvrs',onclick='tabClick(this)')
+			div PVRS
+		div.room-add(onclick='joinRoomTab()')
+			div +
+	div.room#room-pvrs
+		div.col-lg-10.room-chat
+			div.room-chat-messages
+		div.col-lg-2.room-users
+			strong Users
+			ul.room-users-list
+		form.room-chat-box(onsubmit='return sendMessage(this.parentNode)')
+			input#chat-box(type='text',placeholder='Say something!')
+			input.btn.btn-default.btn-xs#chat-send(type='submit',value='Send')
+block footer
+	div#loading
+		div.center
+			h1#loading-text Loading...
+			div.progress.progress-striped.active.progress-bar-success
+				div.progress-bar(role='progressbar',aria-valuenow='100',aria-valuemin='0',aria-valuemax='100', style='width:100%')
+					span.sr-only Loading...
+		div#loading-bg
+	div#info-modal
+		div.modal-interior
+			h2.modal-title Message
+			p.modal-text None
+			input.btn.btn-default.btn-sm.modal-close(type='button',value='Close',onclick='closeModal()')
+	div#select-modal
+		div.modal-interior
+			h2.modal-title Select Room
+			select.form-control#room-menu(size='4')
+			input.btn.btn-primary.btn-sm.modal-join(type='button',value='Join',onclick='joinRoomModal()')
+			input.btn.btn-default.btn-sm.modal-close(type='button',value='Close',onclick='closeSelectModal()')
+	div#info-modal-bg

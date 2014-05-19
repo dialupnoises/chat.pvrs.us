@@ -1,0 +1,16 @@
+extends layout
+block body
+	h2.center-title Log In
+	p.center-title You must use your Pioneer Google account to log in. 
+	p.center-title Are you a student or teacher?
+	div.login-button
+		a.btn.btn-primary.btn-lg(href='/login/student') I'm a Student
+	div.login-button
+		a.btn.btn-success.btn-lg(href='/login/teacher') I'm a Teacher
+block footer
+	div.footer
+		| Created by 
+		a(href='http://twitter.com/_cpancake') Andrew Rogers
+		|. Available on 
+		a(href='http://github.com/cpancake/chat.pvrs.us') GitHub
+		|.

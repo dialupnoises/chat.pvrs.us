@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "routes"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "views"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "assets\\js"
+		}
+	]
+}

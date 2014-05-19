@@ -1,0 +1,895 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"close",
+				"closeSelectModal"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"challenge",
+				"challenge"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"displa",
+				"displayErrorAndDie"
+			],
+			[
+				"donwlo",
+				"downloadComplete"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 2074,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "util.js",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/user.js",
+			"settings":
+			{
+				"buffer_size": 2616,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/main.js",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chat.js",
+			"settings":
+			{
+				"buffer_size": 6636,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 4454,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Andrew/Desktop/pvrs.svg",
+			"settings":
+			{
+				"buffer_size": 6279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/gui.js",
+			"settings":
+			{
+				"buffer_size": 3977,
+				"line_ending": "Windows",
+				"name": "exports.showModal = function(msg) {"
+			}
+		},
+		{
+			"file": "views/logged_out.jade",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 247,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1050,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 1536,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.styl",
+			"settings":
+			{
+				"buffer_size": 3264,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/fpcomp/site/content/pages/deobf1.md",
+		"/C/wamp/node/pvrs_chat/project.sublime-project",
+		"/C/wamp/node/pvrs_chat/log4js_config.json",
+		"/C/Users/Andrew/Desktop/pvrs2.svg",
+		"/C/Users/Andrew/Desktop/pvrs.svg",
+		"/C/wamp/fpcomp/site/templates/deobf1.jade",
+		"/C/wamp/fpcomp/site/Makefile",
+		"/C/wamp/fpcomp/deobf-site/Makefile",
+		"/C/wamp/node/pvrs_chat/public/js/autolinker.min.js",
+		"/C/wamp/heroku/movienight-v2/public/js/chat.js",
+		"/C/wamp/heroku/movienight-v2/views/watch.hbs",
+		"/C/wamp/heroku/movienight-v2/server.js",
+		"/C/wamp/heroku/movienight-v2/chat.js",
+		"/C/wamp/node/pvrs_chat/assets/js/main.js",
+		"/C/wamp/node/pvrs_chat/public/js/jquery.min.js",
+		"/C/wamp/node/knob/knob.sql",
+		"/C/wamp/node/pvrs_chat/views/logged_out.jade",
+		"/C/wamp/node/pvrsvideo/routes/user.js",
+		"/C/wamp/node/pvrs/style.css",
+		"/C/wamp/node/pvrs/index.html",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/C/Users/Andrew/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files (x86)/EA Games/Battlefield 1942/Mods/bf1942/Settings/Default/VideoCustom.con",
+		"/C/wamp/fpcomp/deobf/others/jookia.cpp",
+		"/C/wamp/node/pvrsvideo/views/search_results.jade",
+		"/C/wamp/node/pvrsvideo/views/search.jade",
+		"/C/wamp/node/pvrsvideo/server.js",
+		"/C/wamp/node/pvrsvideo/routes/main.js",
+		"/C/wamp/fpcomp/deobf/vm.md",
+		"/C/wamp/fpcomp/deobf/index.js",
+		"/C/Users/Andrew/Downloads/Saints.Row.The.Third-SKIDROW/skidrow.nfo",
+		"/C/Program Files (x86)/EA Games/Battlefield 1942/Mods/bf1942/Settings/Profiles/Custom/Video.con",
+		"/C/Users/Andrew/Downloads/The_Sims_3_University_Life-FLT/fairlight.nfo",
+		"/C/Program Files (x86)/EA Games/Battlefield 1942/Mods/bf1942/Settings/Default/Video.con",
+		"/C/Program Files (x86)/EA Games/Battlefield 1942/Mods/bf1942/Settings/Video.con",
+		"/C/Users/Andrew/Pictures/fpcomp/fpcomp-deobf.txt",
+		"/C/Users/Andrew/Documents/Helios/src/Makefile",
+		"/C/wamp/fpcomp/deobf/index.html",
+		"/C/Users/Andrew/Downloads/The.Sims.3.Ambitions-ViTALiTY/vitality.nfo",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/package.json",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/app.js",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/www/example.rb",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/www/youhavenoideawhatyouregettinginto.c",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/www/index.js",
+		"/C/Users/Andrew/Documents/Helios/TinyCC-master/win32/build-tcc.bat",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/.gitignore",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/glob.js",
+		"/C/Users/Andrew/Documents/GitHub/WAYWOSite/sandboxed-fs.js",
+		"/C/wamp/gsp/source/query.rb",
+		"/C/wamp/gsp/source/Gemfile",
+		"/C/wamp/gsp/process.js",
+		"/C/wamp/gsp/process_lacnic.js",
+		"/C/wamp/node/waywo-archive/archive-tool/index.js",
+		"/C/wamp/gsp/process_ripe.js",
+		"/C/Users/Andrew/Documents/GCC/rct/format/graphic.h",
+		"/C/Users/Andrew/Documents/GCC/rct/format/graphic.c",
+		"/C/Users/Andrew/Documents/GCC/rct/graphic.c",
+		"/C/Users/Andrew/Documents/Helios/disk/files/boot/grub/menu.lst",
+		"/C/Users/Andrew/Documents/Helios/src/boot.asm",
+		"/C/Users/Andrew/Documents/Helios/src/main.c",
+		"/C/Users/Andrew/Downloads/VirtualDJ Pro 7.4 Build 449 (cracked AceCrack) [ChingLiu]/ChingLiu.Install.Notes.nfo",
+		"/C/Users/Andrew/Documents/Helios/src/screen.asm",
+		"/C/Users/Andrew/Documents/Helios/.bochsrc",
+		"/C/Users/Andrew/Documents/Helios/disk/files/menu.lst",
+		"/C/Users/Andrew/Documents/Helios/src/boot.o",
+		"/C/Users/Andrew/Documents/Helios/Makefile",
+		"/C/Users/Andrew/Documents/Helios/TinyCC/win32/build-tcc.bat",
+		"/C/wamp/apps/lunch/www/index.html",
+		"/C/wamp/apps/lunch/www/demo.html",
+		"/C/wamp/apps/lunch/www/css/index.css",
+		"/C/wamp/apps/lunch/www/config.xml",
+		"/C/Users/Andrew/AppData/Local/Temp/7zEC63A.tmp/demo.html",
+		"/C/Tools/other/WinAnt/bin/ant.bat",
+		"/C/wamp/node/waywo-archive/archive-tool/package.json",
+		"/C/wamp/node/waywo-archive/archive-tool/.gitignore",
+		"/C/Users/Andrew/Documents/GCC/cdollarsign/language.md",
+		"/C/Users/Andrew/Documents/GCC/cdollarsign/cdollarsign.c",
+		"/C/Users/Andrew/.cordova/lib/android/cordova/3.4.0/bin/lib/check_reqs.js",
+		"/C/Users/Andrew/Documents/GCC/cdollarsign/Makefile",
+		"/C/wamp/node/waywo-archive/archive-tool/plugins/json.js",
+		"/C/wamp/node/waywo-archive/archive-tool/README.md",
+		"/C/Tools/other/WinAnt/bin/antRun.bat",
+		"/C/Tools/other/WinAnt/bin/ant.cmd",
+		"/C/Users/Andrew/.cordova/lib/android/cordova/3.4.0/bin/check_reqs",
+		"/C/Users/Andrew/.cordova/lib/android/cordova/3.4.0/bin/check_reqs.bat",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread44/page6/post233.json",
+		"/C/wamp/node/waywo-archive/analyzer/analyzer.js",
+		"/C/wamp/node/waywo-archive/archiver/archiver.js",
+		"/C/wamp/node/waywo-archive/archive-tool/node_modules/mimicry/index.js",
+		"/C/Users/Andrew/Desktop/fpcomp_voting.txt",
+		"/C/wamp/heroku/fpcomp/info.json",
+		"/C/wamp/heroku/fpcomp/themes.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread42/page1/post1.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread42/page2/post1.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread12/page1/post19.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread0/page1/post2.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread0/page1/post1.json",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread0/page1/post9.json",
+		"/C/wamp/node/waywo-archive/archive-tool/out.html",
+		"/C/wamp/node/waywo-archive/archive-tool/output/thread0/page1/post17.json",
+		"/C/wamp/node/waywo-archive/archiver/threads.txt",
+		"/C/wamp/node/netflix/node_modules/mimicry/index.js",
+		"/C/wamp/node/netflix/node_modules/mimicry/package.json",
+		"/C/wamp/node/waywo-archive/archive-tool/util.js",
+		"/C/wamp/node/waywo-archive/archive-tool/archive-tool.bat",
+		"/C/wamp/node/waywo-archive/threads/v00/page1/post1.json",
+		"/C/wamp/node/waywo-archive/site/views/page.jade",
+		"/C/wamp/node/waywo-archive/site/routes/main.js",
+		"/C/wamp/node/waywo-archive/site/server.js",
+		"/C/wamp/node/waywo-archive/site/package.json",
+		"/C/wamp/node/waywo-archive/generator/generator.js",
+		"/C/wamp/node/waywo-archive/generator/templates/page.jade",
+		"/C/wamp/node/adschool/server.js",
+		"/C/wamp/node/waywo-archive/threads/v00/thread.json",
+		"/C/wamp/node/waywo-archive/generator/package.json",
+		"/C/wamp/node/waywo-archive/analyzer/avatars/supersnail11.gif",
+		"/C/wamp/node/waywo-archive/analyzer/out.html",
+		"/C/wamp/node/waywo-archive/threads/v00/page1/post40.json",
+		"/C/wamp/node/waywo-archive/analyzer/statistics/users/Darwin226.json",
+		"/C/wamp/node/waywo-archive/analyzer/statistics/users/garry.json",
+		"/C/wamp/node/waywo-archive/analyzer/statistics/users/stratagen.json",
+		"/C/wamp/node/waywo-archive/analyzer/statistics/users/supersnail11.json",
+		"/C/wamp/node/waywo-archive/analyzer/search-index.json",
+		"/C/wamp/node/waywo-archive/analyzer/package.json",
+		"/C/wamp/node/waywo-archive/threads/v05/page1/post1.json",
+		"/C/wamp/node/waywo-archive/lib/searchplease/lib/db.js",
+		"/C/wamp/node/waywo-archive/lib/searchplease/index.js",
+		"/C/wamp/node/waywo-archive/lib/dirty-search/index.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Site.Logger",
+			"socket.emit\\('cl_error', \\{msg: '(.+?)'\\}\\);",
+			"padding 0",
+			"cl_chat_message",
+			".room-chat-box",
+			"\\n",
+			"Active_node",
+			";",
+			":",
+			"var ",
+			"\\n",
+			"$table_prefix",
+			"&quot;",
+			"&lt;",
+			"&gt;",
+			"PE",
+			"java",
+			"Files",
+			"&quot;",
+			"console.log",
+			"Mimicry",
+			":first",
+			"fp_images.php",
+			"sanitize",
+			"finishedCount",
+			"index",
+			"index.json",
+			"v(\\d+): ",
+			"v\\d+: ",
+			"∩╗┐",
+			"spotifyRegex",
+			"square",
+			"error",
+			"max",
+			"min",
+			"error",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Site.ChatLogger",
+			"logError(socket, '$1');",
+			"\\n[img]http://i.imgur.com/1yYlmXB.png[/img]",
+			"activeNode",
+			"",
+			"global.",
+			"",
+			"\"",
+			"<",
+			">",
+			"\"",
+			"$1 ",
+			"",
+			"facepunchRegex"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1995,
+								1995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "util.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "routes/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 161.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6568,
+								6568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2478.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2842,
+								2842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1428.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Andrew/Desktop/pvrs.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/js/gui.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1615,
+								1615
+							]
+						],
+						"settings":
+						{
+							"auto_name": "exports.showModal = function(msg) {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "views/logged_out.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "views/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "assets/css/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1684,
+								1684
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 955.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
