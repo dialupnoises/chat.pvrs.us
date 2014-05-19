@@ -28,7 +28,7 @@ socket.on('cl_rm_info', function(data) {
 });
 
 socket.on('cl_rm_user', function(data) {
-	Rooms[data.room] = Rooms[data.room] || [];
+	Rooms = Rooms[data.room] || [];
 	if(Rooms[data.room].indexOf(data.id) == -1)
 		Rooms[data.room].push(data.id);
 	console.log('User ' + data.id + ' is in ' + data.room);
@@ -46,7 +46,7 @@ socket.on('cl_rm_user', function(data) {
 
 socket.on('cl_user_join', function(data) {
 	console.log('User ' + data.id + ' joined.');
-	Rooms[data.room] = Rooms[data.room] || [];
+	Rooms = Rooms[data.room] || [];
 	if(Rooms[data.room].indexOf(data.id) == -1)
 		Rooms[data.room].push(data.id);
 	if(data.me)
